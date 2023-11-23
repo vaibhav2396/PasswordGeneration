@@ -1,0 +1,82 @@
+body {
+    background-color: #1C1C1C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.password-section {
+    width: 650px;
+    height: 600px;
+    background-color: #1F2937;
+    font-family: Karla;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 100% */
+    letter-spacing: -1px;
+}
+
+.major-heading {
+    color: #FFF;
+    margin-bottom: 4px;
+}
+
+.minor-heading {
+    color: #4ADF86;
+    margin-top: 4px;
+    margin-bottom: 2px;
+}
+
+.subtext {
+    color: #D5D4D8;
+    margin-top: 2px;
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+
+.btn {
+    margin-top: 25px;
+    font-family: Inter;
+    width: 200px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #FFF;
+    background-color: #10B981;
+    padding: 9px 17px 9px 15px;
+    border-radius: 6px;
+    border: none;
+    margin-bottom: 60px;
+}
+
+.content {
+    margin: 115px 144px 0 52px;
+    width: 550px;
+}
+
+.line {
+    margin-top: 60px 0 0 60px;
+    width: 460px;
+    height: 1px;
+    background-color: #2F3E53;
+}
+
+.password-holders{
+    display: flex;
+}
+
+.password-holder {
+    width: 220px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #273549;
+    margin: 60px 5px 0 5px;
+    text-align: center;
+    font-size: 18px;
+    padding-top: 4px 4px;
+}
+
+#password1, #password2 {
+    color: #55F991;
+    font-weight: normal;
+}
